@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" trans="ff00ff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="pondsAndLava" tilewidth="32" tileheight="32">
+  <image source="pondsAndLava.png" trans="ff00ff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="385" name="collider" tilewidth="32" tileheight="32">
+  <image source="collider.png" trans="ff00ff" width="80" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="387" name="npc" tilewidth="32" tileheight="32">
+  <image source="npc.png" trans="ff00ff" width="160" height="64"/>
+  <tile id="6">
+   <properties>
+    <property name="name" value="Merchant"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACxNiYGAQIhK7A7EHCerJweFAHEFjO0b9Mbj8MYpH8SgexcMdAwCdwXz1bAcAAA==
+  </data>
+ </layer>
+ <layer name="water" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgIA5Y4mBTE4zaQRs7WNAwLewYCECuvwYaDFV3EwLU9lcnI4LNAcW0ABxI+B+NzYZhWppNqR0g88QJmE0tO34RMJ9SOzgZCZtPqR2SRNoBABqqtb9sBwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="25" height="19" opacity="0.53">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgIAwaGSEYnU1NMBLtgMkj46FoBzH20gJQ2w5yw2qw2UGMvYPdDnQzhoq7CZlNTTuGqtm4zKc2oEceI8V8AFIdPPlsBwAA
+  </data>
+ </layer>
+</map>

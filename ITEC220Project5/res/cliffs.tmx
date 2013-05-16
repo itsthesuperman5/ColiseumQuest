@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" trans="ff00ff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="cliffs" tilewidth="32" tileheight="32">
+  <image source="cliffs.png" trans="ff00ff" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="433" name="collider" tilewidth="32" tileheight="32">
+  <image source="collider.png" trans="ff00ff" width="80" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="435" name="openingsAndMisc" tilewidth="32" tileheight="32">
+  <image source="openingsAndMisc.png" trans="ff00ff" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8tgYGDIGMWjeBSP4lE8ikcxzTAA52ntTWwHAAA=
+  </data>
+ </layer>
+ <layer name="Cliffs" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9VT2w2AIAwsjuGauoFuoBvooPJzCVxKKRA+vMSQNKX3sIjk2ILIHmQqjjj/nMxxxfm3wgF/Iz5x94nfq8yAvxGftbvwh7PFD3pLGQHwhxOaPFzoLWXEWtiXh6umn7WwLw+XV39JS4mrBWmW1v4ylweaftSsXKwan5p+1KxcrBqfqR6ezbmkvVpW/LY0jTyb/wHr4h1C37rkbyzVU9u93p2qzdV6W3aqFy26/ogP/NMeO2wHAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgwAQbGbEIUhmg2wHio+PBbAcuM9DFKLELlx58dpBqF7F2kGMXITXEyBGyi1j9xLiRmPgkxw5i3UwNs3HZgSs86W0HqfaQGq6E8gaxdhBKD9jMxWUXPnOkmMgLL2x2EANIiQdalMnUcNdQBQBJBZ0/bAcAAA==
+  </data>
+ </layer>
+</map>

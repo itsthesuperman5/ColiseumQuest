@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" trans="ff00ff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="cliffs" tilewidth="32" tileheight="32">
+  <image source="cliffs.png" trans="ff00ff" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="433" name="collider" tilewidth="32" tileheight="32">
+  <image source="collider.png" trans="ff00ff" width="80" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACxNiYGAQGsWjeBSP4lE8ikcxzTAARfWz9WwHAAA=
+  </data>
+ </layer>
+ <layer name="cliffs" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC/vKwMDwDYi/YqFhbFzyhNTB2KyMDAxsjNhpGBuXPCF1MPYoGAWUAhYseBRgB6NhNQpGAWkAAG01fDVsBwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="25" height="19" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoD3YyEh7PAqGL6BHnA+XdDUaVqNgFAxOAABwEMUvbAcAAA==
+  </data>
+ </layer>
+</map>

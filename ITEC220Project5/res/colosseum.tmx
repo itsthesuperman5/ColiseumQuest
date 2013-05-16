@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" trans="ff00ff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="roofsAndWindows" tilewidth="32" tileheight="32">
+  <image source="roofsAndWindows.png" trans="ff00ff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="449" name="walls" tilewidth="32" tileheight="32">
+  <image source="walls.png" trans="ff00ff" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="577" name="openingsAndMisc" tilewidth="32" tileheight="32">
+  <image source="openingsAndMisc.png" trans="ff00ff" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="833" name="collider" tilewidth="32" tileheight="32">
+  <image source="collider.png" trans="ff00ff" width="80" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="835" name="npc" tilewidth="32" tileheight="32">
+  <image source="npc.png" trans="ff00ff" width="160" height="64"/>
+  <tile id="3">
+   <properties>
+    <property name="name" value="GameMaster"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="name" value="Guard"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9NmYmDQAWJtGtAwtjUQ29CIhrGFGEbxKB7Fo3gUj+LBiQF6vO8ObAcAAA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGFzgJxOE/sVEmj5LEuQ4mSE0FzNpZpBihyTUbCko7cpMfTucoWa6UMkfHswIeWKwBzN2cwj5ww2HPlIAITuoAUbtGLVj1I6RYweu8oxSACtXASxBEztsBwAA
+  </data>
+ </layer>
+ <layer name="Collision" width="25" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgIB04MiNodIxLPT0wPrtxuR+bOD73DyY7cAFcavHZQa0wp6Y/CPmPUnNG7Ri1Y9SOoWEHreyhtR3IZgMAyp5E1WwHAAA=
+  </data>
+ </layer>
+</map>

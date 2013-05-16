@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" trans="ff00ff" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="cliffs" tilewidth="32" tileheight="32">
+  <image source="cliffs.png" trans="ff00ff" width="512" height="480"/>
+ </tileset>
+ <layer name="ground" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJwTYmBgEBrFo3gUj+JRPIpHMc0wAEIAIWc=
+  </data>
+ </layer>
+ <layer name="cliffs" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJz7ysDA8A2Iv2KhYWxc8oTUwdisjAwMbIzYaRgblzwhdTD2KBgFlAIWLHgUYAejYTUKRgFpAABqBRjE
+  </data>
+ </layer>
+</map>
