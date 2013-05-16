@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="Wright-Project5"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/stephenwright/Documents/Coliseum Quest/Wright-Project5/lwjgl.jar">
+	<classpathentry kind="lib" path="lib/slick.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/Users/stephenwright/Documents/Coliseum Quest/Wright-Project5/lwjgl-2.8.4/lwjgl-2.8.4/native/macosx"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="ITEC220Project5/lib/lwjgl-2.8.4/lwjgl-2.8.4/native/macosx"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/stephenwright/Documents/Coliseum Quest/Wright-Project5/slick.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
